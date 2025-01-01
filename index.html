@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>プロフィール | ○○ ○○</title>
+  <title>プロフィール | 増田謙一</title>
   <!-- Tailwind CSS CDN -->
   <link
     href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
@@ -53,16 +53,10 @@
 
   <!-- ヒーローセクション -->
   <section class="hero-bg text-white h-80 flex flex-col justify-center items-center">
-    <h1 class="text-4xl font-bold mb-2">はじめまして、○○です</h1>
+    <h1 class="text-4xl font-bold mb-2">はじめまして、増田謙一です</h1>
     <p class="text-lg max-w-xl text-center">
-      パキノー株式会社の代表をしています。CX領域のコンサルティング事業を行っています。
+      パキシーノ株式会社の代表をしています。CX領域のコンサルティング事業を行っています。
     </p>
-    <a
-      href="#contact"
-      class="mt-6 bg-blue-500 text-white px-6 py-3 rounded-full text-sm hover:bg-blue-600 transition"
-    >
-      お問い合わせ
-    </a>
   </section>
 
   <!-- 自己紹介セクション -->
@@ -70,37 +64,25 @@
     <div class="flex flex-col md:flex-row items-start md:items-center">
       <div class="w-full md:w-1/3 mb-8 md:mb-0 md:pr-8 flex justify-center">
         <!-- プロフィール画像等を配置する想定 -->
-        <img
-          src="https://via.placeholder.com/200.png?text=Profile+Photo"
-          alt="Profile"
-          class="rounded-full shadow-lg w-48 h-48 object-cover"
-        />
       </div>
       <div class="w-full md:w-2/3">
         <h2 class="text-2xl font-bold mb-4">自己紹介</h2>
         <p class="mb-4 leading-relaxed">
-          「顧客・各種メディア、森のトラッキングや他部活すぎ」といった、さまざまなプロジェクトに関わってきました。<br/>
+          さまざまなプロジェクトに関わってきました。<br/>
           各種データを用いた LTV・NRR などの観点で、事業や組織を継続的にバリューアップ支援しています。
         </p>
         <p class="mb-4 leading-relaxed">
           以下のプロフィールページには、私が大切にしている考え方や得意分野をまとめています。<br/>
           <a
-            href="https://note.com/masuaka/n/kn6ca34a2265d"
+            href="https://paxinno.co.jp/category/founders-thoughts/"
             class="underline text-blue-500 hover:text-blue-400"
             target="_blank"
             rel="noopener noreferrer"
-            >起業の経緯</a
+            >代表コラム</a
           > /
-          <a
-            href="https://note.com/masuaka/n/ha3063a25f74"
-            class="underline text-blue-500 hover:text-blue-400"
-            target="_blank"
-            rel="noopener noreferrer"
-            >CX顧問への想い</a
-          >
         </p>
         <p class="leading-relaxed">
-          掲載しきれなかった情報やプロジェクト履歴など、さらに知りたいことがあれば下記のお問い合わせフォームよりお気軽にご連絡ください。
+          掲載しきれなかった情報やプロジェクト履歴など、さらに知りたいことがあればお気軽にご連絡ください。
         </p>
       </div>
     </div>
@@ -113,8 +95,8 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-white p-6 rounded shadow">
           <h3 class="text-xl font-semibold mb-2">学歴</h3>
-          <p class="mb-2">慶應義塾大学文学部 卒業 (2002年 ~ 2006年)</p>
-          <p class="mb-2">慶應義塾大学大学院文学研究科 修了 (2006年 ~ 2010年)</p>
+          <p class="mb-2">慶應義塾大学文学部 卒業 (2002年 ~ 2008年)</p>
+          <p class="mb-2">慶應義塾大学大学院文学研究科 修了 (2008年 ~ 2010年)</p>
           <p class="text-sm text-gray-600">
             専攻はファンコミュニケーションズ、サイバーエージェント、メルカリを経て起業。
           </p>
@@ -128,7 +110,7 @@
               バリューアップ支援における
               <strong>LTV・NRR</strong> 向上プランの設計・運用
             </li>
-            <li>パキノー株式会社代表（2022年 ~ 現在）</li>
+            <li>パキシーノ株式会社代表（2022年 ~ 現在）</li>
           </ul>
         </div>
       </div>
@@ -172,58 +154,10 @@
     </div>
   </section>
 
-  <!-- お問い合わせセクション -->
-  <section id="contact" class="bg-gray-900 text-white py-12">
-    <div class="container mx-auto px-4">
-      <h2 class="text-2xl font-bold mb-4 text-center">お問い合わせ</h2>
-      <p class="text-center mb-8">
-        ご相談・ご依頼などお気軽にご連絡ください。
-      </p>
-      <form class="max-w-xl mx-auto">
-        <div class="mb-4">
-          <label class="block mb-2 font-semibold" for="name">お名前</label>
-          <input
-            class="w-full px-3 py-2 border rounded text-black focus:outline-none"
-            type="text"
-            id="name"
-            placeholder="山田 太郎"
-            required
-          />
-        </div>
-        <div class="mb-4">
-          <label class="block mb-2 font-semibold" for="email">メールアドレス</label>
-          <input
-            class="w-full px-3 py-2 border rounded text-black focus:outline-none"
-            type="email"
-            id="email"
-            placeholder="example@example.com"
-            required
-          />
-        </div>
-        <div class="mb-6">
-          <label class="block mb-2 font-semibold" for="message">メッセージ</label>
-          <textarea
-            class="w-full px-3 py-2 border rounded text-black focus:outline-none"
-            id="message"
-            rows="5"
-            placeholder="ご相談内容を詳しくご記入ください"
-            required
-          ></textarea>
-        </div>
-        <button
-          type="submit"
-          class="w-full bg-blue-500 hover:bg-blue-600 transition text-white font-bold py-2 rounded"
-        >
-          送信
-        </button>
-      </form>
-    </div>
-  </section>
-
   <!-- フッター -->
   <footer class="bg-gray-100 text-gray-600 py-6 mt-12">
     <div class="container mx-auto px-4 text-center">
-      <p class="text-sm">&copy; 2025 Masuoka. All rights reserved.</p>
+      <p class="text-sm">&copy; 2025 Kenichi Masuda All rights reserved.</p>
     </div>
   </footer>
 </body>
